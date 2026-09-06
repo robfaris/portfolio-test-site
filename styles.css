@@ -71,6 +71,7 @@ a:hover {
 .button:hover {
     color: #ffffff;
     background: #002EA1;
+    text-decoration: none;
 }
 
 hr {
