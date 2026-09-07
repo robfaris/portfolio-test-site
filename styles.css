@@ -528,6 +528,15 @@ h3.identifier {
     text-align: center;
     padding: 20px 0;
 }
+
+#attractor {
+    font-size: 1.2em;
+}
+
+#caption {
+    font-size: .9em;
+}
+
 #gif-bar img {
     height: 280px; 
     margin-bottom: 10px;
@@ -629,7 +638,7 @@ h3.identifier {
         padding: 10px 5% 10px 5%;
     }
 
-    .demo-bar.flex-reverse {
+   .flex-reverse {
         flex-direction: column-reverse;
     }
 
@@ -709,6 +718,10 @@ h3.identifier {
 
     .section-header {
         margin: 20px 5%;
+    }
+
+    #video-portfolio .button {
+        text-align: left;
     }
 
     #gif-bar img {
