@@ -167,15 +167,6 @@ path {
     padding: 0;
 }
 
-/* .top-bar .image {
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 1 1 100%;
-    margin: 80px 15% 50px;
-} */
-
 .subpage-title {
     display: flex;
     flex-direction: column;
@@ -603,6 +594,11 @@ h3.identifier {
     .header-nav {
         align-items: flex-end
     }
+
+    .header-nav li img {
+        vertical-align: baseline;
+    }
+
     .top-bar {
         flex-direction: column-reverse;
         margin: 0;
@@ -728,10 +724,6 @@ h3.identifier {
         padding: 30px 10%;
         margin: 0;
     }
-
-    /* #gif-bar img {
-        width: 100%;
-    } */
 
     #graphicsbox {
         padding: 0 10%;
