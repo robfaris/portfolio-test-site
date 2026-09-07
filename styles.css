@@ -207,6 +207,9 @@ path {
     margin-right: 10%;
 }
 
+.demo-bar img {
+    height: 280px;
+}
 
 .demo-bar .image {
     height: 200px;
@@ -534,6 +537,10 @@ h3.identifier {
     text-align: center;
     padding: 20px 0;
 }
+#gif-bar img {
+    height: 280px; 
+    margin-bottom: 10px;
+}
 
 #video-portfolio {
     display: flex;
@@ -573,11 +580,21 @@ h3.identifier {
 #graphics {
     justify-content: center;
 }
-@media only screen and (max-width: 750px) {
-    iframe {
-        width: 90%;
-        height: 200px;
+
+@media only screen and (max-width: 1000px) {
+    .demo-bar {
+        padding: 50px 5% 50px 5%;
     }
+}
+
+@media only screen and (max-width: 750px) {
+    /* html, body {
+    overflow-x: hidden;
+    }
+
+    body {
+    position: relative
+    } */
 
     hr {
         display: none;
@@ -613,7 +630,7 @@ h3.identifier {
         align-items: center;
         margin: 0;
         gap: 10px;
-        padding: 10px 10% 10px 10%;
+        padding: 10px 5% 10px 5%;
     }
 
     .demo-bar.flex-reverse {
@@ -624,6 +641,12 @@ h3.identifier {
         width: 100%;
         margin: 0;
         padding: 15px 0;
+        align-items: center;
+    }
+
+    .demo-bar img {
+        height: auto;
+        width: 100%;
     }
 
     .info-bar {
@@ -638,6 +661,14 @@ h3.identifier {
     .info-bar-blocks.orange p {
         width: auto;
         padding-right: 15px;
+    }
+
+    .subpage-bar {
+        padding: 10px 5% 10px 5%;
+    }
+
+    .subpage-bar .text {
+        padding: 0;
     }
 
     .card img {
@@ -684,6 +715,11 @@ h3.identifier {
         margin: 20px 5%;
     }
 
+    #gif-bar img {
+        height: auto;
+        width: 100%;
+    }
+
     #video-player {
         display: none;
     }
@@ -692,6 +728,10 @@ h3.identifier {
         padding: 30px 10%;
         margin: 0;
     }
+
+    /* #gif-bar img {
+        width: 100%;
+    } */
 
     #graphicsbox {
         padding: 0 10%;
